@@ -1,0 +1,10 @@
+streamlit
+pandas
+yfinance
+investpy
+seaborn
+numpy
+matplotlib
+python-dateutil
+plotly
+fundamentus
