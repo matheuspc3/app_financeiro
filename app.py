@@ -85,7 +85,7 @@ def panorama():
     fig.update_layout(title=indice,xaxis_rangeslider_visible=False)
     st.plotly_chart(fig)
 
-    indice_acoes = ['PETR4','VALE3.SA','EQTL3.SA','CSNA3.SA']
+    indice_acoes = ['PETR4.SA','VALE3.SA','EQTL3.SA','CSNA3.SA']
     acao =st.selectbox('Selecione a ação', indice_acoes)
 
     hiist_acao = yf.download(acao,period='1d',interval='5m')
